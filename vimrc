@@ -41,3 +41,5 @@ set exrc
 set secure
 
 inoremap kj <Esc>
+
+autocmd BufReadPost * :GuessIndent

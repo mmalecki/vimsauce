@@ -88,3 +88,6 @@
 [submodule "bundle/rust"]
 	path = bundle/rust
 	url = https://github.com/wting/rust.vim.git
+[submodule "bundle/GuessIndent"]
+	path = bundle/GuessIndent
+	url = https://github.com/nathan7/GuessIndent.git

@@ -2,7 +2,7 @@ set nocompatible
 call pathogen#infect()
 syntax enable
 set t_Co=256
-set background=dark
+set background=light
 colorscheme solarized
 
 set smarttab

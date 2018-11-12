@@ -46,9 +46,6 @@
 [submodule "bundle/pasta"]
 	path = bundle/pasta
 	url = https://github.com/sickill/vim-pasta.git
-[submodule "bundle/MatchTag"]
-	path = bundle/MatchTag
-	url = https://github.com/gregsexton/MatchTag.git
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git

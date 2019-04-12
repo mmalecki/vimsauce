@@ -1,5 +1,8 @@
 #!/bin/bash
-pluginpath="$(dirname "$(readlink -f $0)")"
+READLINK=readlink
+which greadlink && READLINK=greadlink
+
+pluginpath="$(dirname "$($READLINK -f $0)")"
 ln -svf $pluginpath/vimrc "$HOME/.vimrc"
 rm -rvf "$HOME/.vim"
 ln -sv $pluginpath "$HOME/.vim"

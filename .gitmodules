@@ -97,3 +97,6 @@
 [submodule "bundle/terraform"]
 	path = bundle/terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "ftplugin/typescript"]
+	path = bundle/typescript
+	url = https://github.com/leafgarland/typescript-vim.git

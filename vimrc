@@ -1,6 +1,7 @@
 set nocompatible
 call pathogen#infect()
 syntax enable
+let g:solarized_termcolors=256
 set t_Co=256
 set background=light
 colorscheme solarized
@@ -44,5 +45,7 @@ inoremap kj <Esc>
 
 let g:detectindent_preferred_expandtab = 1 
 let g:detectindent_preferred_indent = 4 
+
+let g:terraform_fmt_on_save=1
 
 autocmd BufReadPost * :DetectIndent

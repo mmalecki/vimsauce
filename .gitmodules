@@ -103,3 +103,6 @@
 [submodule "bundle/vue"]
 	path = bundle/vue
 	url = https://github.com/posva/vim-vue.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git

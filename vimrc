@@ -49,3 +49,13 @@ let g:detectindent_preferred_indent = 4
 let g:terraform_fmt_on_save=1
 
 autocmd BufReadPost * :DetectIndent
+
+set hidden
+
+let g:LanguageClient_serverCommands = {
+  \ 'javascript': ['javascript-typescript-stdio'],
+  \ }
+
+nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>

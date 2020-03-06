@@ -109,3 +109,6 @@
 [submodule "bundle/LanguageClient-neovim"]
 	path = bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
+[submodule "bundle/jsx-typescript"]
+	path = bundle/jsx-typescript
+	url = https://github.com/peitalin/vim-jsx-typescript.git

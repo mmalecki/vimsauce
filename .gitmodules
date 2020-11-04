@@ -112,3 +112,6 @@
 [submodule "bundle/jsx-typescript"]
 	path = bundle/jsx-typescript
 	url = https://github.com/peitalin/vim-jsx-typescript.git
+[submodule "bundle/abolish"]
+	path = bundle/abolish
+	url = https://github.com/tpope/vim-abolish.git

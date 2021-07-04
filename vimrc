@@ -22,6 +22,7 @@ nnoremap <silent> <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 nnoremap <silent> <F3> :TagbarToggle<CR>
 nnoremap <silent> <F4> :NERDTreeToggle<CR>
 map <silent> <F5> <Plug>TaskList
+cabbr <expr> %% expand('%:p:h')
 
 if filereadable("/usr/local/bin/ctags")
   let g:tagbar_ctags_bin='/usr/local/bin/ctags'

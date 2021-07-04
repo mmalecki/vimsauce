@@ -115,3 +115,6 @@
 [submodule "bundle/abolish"]
 	path = bundle/abolish
 	url = https://github.com/tpope/vim-abolish.git
+[submodule "bundle/openscad"]
+	path = bundle/openscad
+	url = https://github.com/sirtaj/vim-openscad.git

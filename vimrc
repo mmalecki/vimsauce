@@ -56,6 +56,7 @@ let g:LanguageClient_serverCommands = {
   \ 'typescript': ['typescript-language-server', '--stdio'],
   \ 'typescript.tsx': ['typescript-language-server', '--stdio'],
   \ 'vue': ['vls'],
+  \ 'terraform': ['terraform-lsp'],
   \ }
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>

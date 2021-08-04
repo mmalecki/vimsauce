@@ -51,6 +51,8 @@ autocmd BufReadPost * :DetectIndent
 
 set hidden
 
+let g:terraform_fmt_on_save = 1
+
 let g:LanguageClient_serverCommands = {
   \ 'javascript': ['typescript-language-server', '--stdio'],
   \ 'typescript': ['typescript-language-server', '--stdio'],

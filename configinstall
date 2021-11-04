@@ -6,3 +6,7 @@ pluginpath="$(dirname "$($READLINK -f $0)")"
 ln -svf $pluginpath/vimrc "$HOME/.vimrc"
 rm -rvf "$HOME/.vim"
 ln -sv $pluginpath "$HOME/.vim"
+
+pushd $pluginpath/bundle/LanguageClient-neovim
+bash install.sh
+popd

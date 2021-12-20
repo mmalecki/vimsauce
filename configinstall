@@ -10,3 +10,6 @@ ln -sv $pluginpath "$HOME/.vim"
 pushd $pluginpath/bundle/LanguageClient-neovim
 bash install.sh
 popd
+
+which npm && npm install -g typescript-language-server
+which go && go get github.com/juliosueiras/terraform-lsp

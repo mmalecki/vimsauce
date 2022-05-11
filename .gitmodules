@@ -61,9 +61,6 @@
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/vim-nodejs-complete"]
-	path = bundle/vim-nodejs-complete
-	url = https://github.com/myhere/vim-nodejs-complete
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = http://github.com/airblade/vim-gitgutter.git

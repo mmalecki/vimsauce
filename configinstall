@@ -12,4 +12,4 @@ bash install.sh
 popd
 
 which npm && npm install -g typescript-language-server
-which go && go get github.com/juliosueiras/terraform-lsp
+which go && go install github.com/juliosueiras/terraform-lsp

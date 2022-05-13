@@ -11,5 +11,5 @@ pushd $pluginpath/bundle/LanguageClient-neovim
 bash install.sh
 popd
 
-which npm && npm install -g typescript-language-server
-which go && go install github.com/juliosueiras/terraform-lsp@latest
+which npm && npm install -g typescript-language-server || true
+which go && go install github.com/juliosueiras/terraform-lsp@latest || true

@@ -42,6 +42,8 @@ set smartcase
 set exrc
 set secure
 
+set wildignore+=*.stl,*.3mf
+
 inoremap kj <Esc>
 
 let g:detectindent_preferred_expandtab = 1 

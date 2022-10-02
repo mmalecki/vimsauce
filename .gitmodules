@@ -73,9 +73,6 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
-[submodule "bundle/multiple-cursors"]
-	path = bundle/multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "bundle/rust"]
 	path = bundle/rust
 	url = https://github.com/wting/rust.vim.git
@@ -115,3 +112,9 @@
 [submodule "bundle/openscad"]
 	path = bundle/openscad
 	url = https://github.com/sirtaj/vim-openscad.git
+[submodule "bundle/visual-multi"]
+	path = bundle/visual-multi
+	url = https://github.com/mg979/vim-visual-multi.git
+[submodule "bundle/cue"]
+	path = bundle/cue
+	url = https://github.com/jjo/vim-cue

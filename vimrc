@@ -61,8 +61,15 @@ let g:LanguageClient_serverCommands = {
   \ 'typescript.tsx': ['typescript-language-server', '--stdio'],
   \ 'vue': ['vls'],
   \ 'terraform': ['terraform-lsp'],
+  \ 'vim': ['vim-language-server', '--stdio'],
+  \ 'go': ['gopls'],
+  \ 'openscad': ['openscad-lsp', '--stdio'],
+  \ 'cpp': ['clangd-13'],
+  \ 'python': ['pyls'],
+  \ 'rust': ['rls'],
   \ }
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+noremap Zn :call LanguageClient#textDocument_rename()<CR>
